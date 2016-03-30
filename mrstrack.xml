@@ -7,14 +7,23 @@
       </block>
     </value>
     <next>
-      <block type="movement_left" id="11">
+      <block type="robot_delay" id="252" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="259">
+            <field name="NUM">5000</field>
+          </block>
+        </value>
         <next>
-          <block type="robot_delay" id="32" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="39">
-                <field name="NUM">500</field>
+          <block type="movement_left" id="11">
+            <next>
+              <block type="robot_delay" id="32" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="39">
+                    <field name="NUM">500</field>
+                  </block>
+                </value>
               </block>
-            </value>
+            </next>
           </block>
         </next>
       </block>
