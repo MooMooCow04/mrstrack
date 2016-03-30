@@ -1,9 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="led_select" id="160" inline="true" x="97" y="85">
-    <field name="ACTION">FLASH</field>
+    <field name="ACTION">ON</field>
     <value name="LED">
-      <block type="math_number" id="217">
-        <field name="NUM">5000</field>
+      <block type="sensor_light" id="250">
+        <field name="LIGHT">LEFT</field>
       </block>
     </value>
     <next>
