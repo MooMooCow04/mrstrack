@@ -21,60 +21,6 @@
                     <field name="NUM">20</field>
                   </block>
                 </value>
-                <next>
-                  <block type="movement_reverse" id="124">
-                    <next>
-                      <block type="movement_setmotors" id="106" inline="true">
-                        <value name="BOTHMOVLEFT">
-                          <block type="math_number" id="108">
-                            <field name="NUM">20</field>
-                          </block>
-                        </value>
-                        <value name="BOTHMOVRIGHT">
-                          <block type="math_number" id="107">
-                            <field name="NUM">50</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="movement_reverse" id="140">
-                            <next>
-                              <block type="movement_setmotors" id="112" inline="true">
-                                <value name="BOTHMOVLEFT">
-                                  <block type="math_number" id="114">
-                                    <field name="NUM">20</field>
-                                  </block>
-                                </value>
-                                <value name="BOTHMOVRIGHT">
-                                  <block type="math_number" id="113">
-                                    <field name="NUM">50</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="movement_reverse" id="141">
-                                    <next>
-                                      <block type="movement_setmotors" id="109" inline="true">
-                                        <value name="BOTHMOVLEFT">
-                                          <block type="math_number" id="110">
-                                            <field name="NUM">50</field>
-                                          </block>
-                                        </value>
-                                        <value name="BOTHMOVRIGHT">
-                                          <block type="math_number" id="111">
-                                            <field name="NUM">20</field>
-                                          </block>
-                                        </value>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
               </block>
             </next>
           </block>
