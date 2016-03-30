@@ -38,6 +38,29 @@
                         <field name="NUM">5</field>
                       </block>
                     </value>
+                    <next>
+                      <block type="movement_left" id="340">
+                        <next>
+                          <block type="robot_delay" id="343" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="350">
+                                <field name="NUM">600</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="led_select" id="352" inline="true">
+                                <field name="ACTION">OFF</field>
+                                <value name="LED">
+                                  <block type="math_number" id="353">
+                                    <field name="NUM">5</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
