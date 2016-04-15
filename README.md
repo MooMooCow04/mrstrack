@@ -1,7 +1,7 @@
 marstrack1
 ================
 
-Mars foam court super fancy, used no-number robot
+Mars foam court medium, used no-number robot
 
 ### Project Information
 ```
